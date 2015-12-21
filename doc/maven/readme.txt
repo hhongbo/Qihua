@@ -1,7 +1,8 @@
 mvn -version
 mvn help:system
 
-mvn archetype:generate
+mvn archetype:generate -DarchetypeCatalog=internal
+mvn eclipse:eclipse
 mvn install
 mvn site
 mvn javadoc:javadoc
